@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { nav, profile } from "../lib/data";
 
@@ -45,10 +46,17 @@ export default function Nav() {
       <div className="mx-auto max-w-6xl px-6 lg:px-8 h-16 flex items-center justify-between">
         <a
           href="#top"
-          className="group flex items-center gap-2 font-mono text-sm tracking-tight"
+          className="group flex items-center gap-2.5 font-mono text-sm tracking-tight"
         >
-          <span className="inline-flex h-7 w-7 items-center justify-center rounded-md border border-[color:var(--color-border-strong)] bg-[color:var(--color-surface)] text-[color:var(--color-accent)] font-semibold">
-            d
+          <span className="relative inline-flex h-8 w-8 rounded-full overflow-hidden ring-1 ring-[color:var(--color-border-strong)] group-hover:ring-[color:var(--color-accent)] transition">
+            <Image
+              src={profile.avatar}
+              alt={profile.name}
+              width={64}
+              height={64}
+              priority
+              className="h-full w-full object-cover"
+            />
           </span>
           <span className="hidden sm:inline text-[color:var(--color-fg)]">
             {profile.firstName.toLowerCase()}

@@ -7,7 +7,7 @@ export default function Experience() {
       id="experience"
       eyebrow="Experience"
       title="Where I've shipped."
-      description="Five-plus years across product companies, agencies and freelance — focused on shipping reliable web and mobile software."
+      description="Six-plus years across product companies, agencies and independent freelance — focused on shipping reliable web and mobile software."
     >
       <ol className="relative space-y-4">
         {experience.map((job, idx) => (

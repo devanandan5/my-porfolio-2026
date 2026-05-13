@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { profile } from "../lib/data";
 
 export default function Hero() {
@@ -12,15 +13,30 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
         <div className="fade-up max-w-4xl">
-          <div className="inline-flex items-center gap-2 rounded-full border border-[color:var(--color-border-strong)] bg-[color:var(--color-surface)]/80 backdrop-blur px-3 py-1 text-xs font-mono text-[color:var(--color-muted)]">
-            <span className="relative flex h-1.5 w-1.5">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[color:var(--color-accent)] opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[color:var(--color-accent)]"></span>
-            </span>
-            {profile.status} — {profile.location.split(",")[0]}
+          <div className="flex items-center gap-4 mb-8">
+            <div className="relative shrink-0 float">
+              <div className="absolute -inset-1.5 rounded-full bg-[color:var(--color-accent)] blur-md opacity-40" />
+              <div className="relative h-14 w-14 sm:h-16 sm:w-16 rounded-full overflow-hidden ring-2 ring-[color:var(--color-accent)] ring-offset-2 ring-offset-[color:var(--color-bg)]">
+                <Image
+                  src={profile.avatar}
+                  alt={`Portrait of ${profile.name}`}
+                  width={128}
+                  height={128}
+                  priority
+                  className="h-full w-full object-cover"
+                />
+              </div>
+            </div>
+            <div className="inline-flex items-center gap-2 rounded-full border border-[color:var(--color-border-strong)] bg-[color:var(--color-surface)]/80 backdrop-blur px-3 py-1 text-xs font-mono text-[color:var(--color-muted)]">
+              <span className="relative flex h-1.5 w-1.5">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[color:var(--color-accent)] opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-1.5 w-1.5 bg-[color:var(--color-accent)]"></span>
+              </span>
+              {profile.status} — {profile.location.split(",")[0]}
+            </div>
           </div>
 
-          <h1 className="mt-8 text-5xl sm:text-6xl lg:text-8xl font-semibold tracking-tighter leading-[0.95] text-balance">
+          <h1 className="text-5xl sm:text-6xl lg:text-8xl font-semibold tracking-tighter leading-[0.95] text-balance">
             <span className="text-gradient">{profile.firstName}</span>{" "}
             <span className="text-gradient">S.</span>
             <br />
@@ -33,9 +49,13 @@ export default function Hero() {
           <p className="mt-8 max-w-2xl text-lg sm:text-xl leading-relaxed text-[color:var(--color-muted)] text-balance">
             {profile.tagline}{" "}
             <span className="text-[color:var(--color-fg)]">
-              {profile.yearsOfExperience}+ years
+              {profile.experienceLabel}
             </span>{" "}
-            shipping production software across web, mobile and Web3.
+            shipping production software across web, mobile and Web3 — since{" "}
+            <span className="text-[color:var(--color-fg)]">
+              {profile.experienceSince}
+            </span>
+            .
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">
@@ -70,7 +90,7 @@ export default function Hero() {
 
           <dl className="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-px bg-[color:var(--color-border)] border border-[color:var(--color-border)] rounded-xl overflow-hidden max-w-2xl">
             {[
-              { label: "Experience", value: `${profile.yearsOfExperience}+ yrs` },
+              { label: "Experience", value: profile.experienceLabel },
               { label: "Projects", value: "20+" },
               { label: "Stack", value: "MERN" },
               { label: "Based in", value: "Bengaluru" },

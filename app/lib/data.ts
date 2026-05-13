@@ -7,13 +7,21 @@ export const profile = {
     "I build robust web and mobile products with React, Node.js, MongoDB and React Native.",
   location: "Bengaluru, Karnataka, India",
   status: "Open to opportunities",
-  email: "metaflo.ai@gmail.com",
+  email: "devanandandevaaa1122@gmail.com",
+  phone: "+91 95399 06883",
+  phoneTel: "+919539906883",
   linkedin: "https://www.linkedin.com/in/devanandan-s-059239215/",
-  github: "https://github.com/",
-  yearsOfExperience: 5,
+  github: "https://github.com/devanandan5",
+  instagram: "https://www.instagram.com/t.a.l.e.s/",
+  x: "https://x.com/devanandan_s_",
+  avatar: "/profile.png",
+  experienceLabel: "6 yrs 7 mos",
+  experienceShort: "6+ yrs",
+  experienceSince: "Oct 2019",
+  yearsOfExperience: 6,
   about: [
-    "I'm Devanandan — a full-stack engineer with 5+ years of hands-on experience shipping production software across web, mobile and Web3.",
-    "My day-to-day is the MERN stack: MongoDB, Express, React and Node.js. I also build cross-platform mobile apps with React Native and modern, fast web experiences with Next.js and TypeScript.",
+    "I'm Devanandan — a full-stack engineer with 6 years and 7 months of hands-on experience (since October 2019) shipping production software across web, mobile and Web3.",
+    "I started out as an independent freelancer building websites and small apps for early clients, then moved into product teams and agencies — working across the MERN stack, React Native and Next.js.",
     "I care about clean, maintainable code, performant APIs and interfaces that feel obvious to use. Right now I'm exploring the intersection of AI-assisted product workflows and Web3.",
   ],
 } as const;
@@ -87,6 +95,20 @@ export const experience: Experience[] = [
     ],
     stack: ["React", "Node.js", "Express", "MongoDB", "REST APIs"],
   },
+  {
+    company: "Independent",
+    role: "Freelance Developer",
+    type: "Freelance · Remote",
+    location: "India",
+    start: "Oct 2019",
+    end: "Oct 2020",
+    duration: "1 yr",
+    highlights: [
+      "Took on independent freelance projects for early clients — websites, landing pages and small full-stack apps.",
+      "Where it all started: shipped my first paid production software outside of any company.",
+    ],
+    stack: ["JavaScript", "React", "Node.js", "HTML/CSS", "MongoDB"],
+  },
 ];
 
 export type Project = {
@@ -99,14 +121,6 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    title: "Metaflo — AI Form Builder",
-    description:
-      "AI-powered form builder that turns plain-English prompts into structured, multi-step forms with validation.",
-    stack: ["Next.js", "TypeScript", "OpenAI", "Tailwind"],
-    year: "2024",
-    highlight: true,
-  },
   {
     title: "Finco",
     description:
