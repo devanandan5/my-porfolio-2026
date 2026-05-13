@@ -13,15 +13,15 @@ export default function Hero() {
 
       <div className="relative mx-auto max-w-6xl px-6 lg:px-8">
         <div className="fade-up max-w-4xl">
-          <div className="flex items-center gap-4 mb-8">
+          <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-4 mb-8">
             <div className="relative shrink-0 float">
-              <div className="absolute -inset-1.5 rounded-full bg-[color:var(--color-accent)] blur-md opacity-40" />
-              <div className="relative h-14 w-14 sm:h-16 sm:w-16 rounded-full overflow-hidden ring-2 ring-[color:var(--color-accent)] ring-offset-2 ring-offset-[color:var(--color-bg)]">
+              <div className="absolute -inset-2 rounded-full bg-[color:var(--color-accent)] blur-lg opacity-40" />
+              <div className="relative h-20 w-20 sm:h-16 sm:w-16 rounded-full overflow-hidden ring-2 ring-[color:var(--color-accent)] ring-offset-4 sm:ring-offset-2 ring-offset-[color:var(--color-bg)]">
                 <Image
                   src={profile.avatar}
                   alt={`Portrait of ${profile.name}`}
-                  width={128}
-                  height={128}
+                  width={160}
+                  height={160}
                   priority
                   className="h-full w-full object-cover"
                 />
@@ -69,10 +69,10 @@ export default function Hero() {
             .
           </p>
 
-          <div className="mt-10 flex flex-wrap items-center gap-3">
+          <div className="mt-10 flex flex-col sm:flex-row sm:flex-wrap sm:items-center gap-3">
             <a
               href="#projects"
-              className="group inline-flex h-11 items-center gap-2 rounded-full bg-[color:var(--color-fg)] px-5 text-sm font-medium text-[color:var(--color-bg)] hover:bg-[color:var(--color-accent)] transition-colors"
+              className="group inline-flex h-12 sm:h-11 items-center justify-center gap-2 rounded-full bg-[color:var(--color-fg)] px-6 sm:px-5 text-sm font-medium text-[color:var(--color-bg)] hover:bg-[color:var(--color-accent)] transition-colors"
             >
               View my work
               <svg
@@ -93,7 +93,7 @@ export default function Hero() {
             </a>
             <a
               href={`mailto:${profile.email}`}
-              className="inline-flex h-11 items-center gap-2 rounded-full border border-[color:var(--color-border-strong)] bg-[color:var(--color-surface)] px-5 text-sm font-medium hover:border-[color:var(--color-fg)] transition-colors"
+              className="inline-flex h-12 sm:h-11 items-center justify-center gap-2 rounded-full border border-[color:var(--color-border-strong)] bg-[color:var(--color-surface)] px-6 sm:px-5 text-sm font-medium hover:border-[color:var(--color-fg)] transition-colors"
             >
               Get in touch
             </a>
