@@ -1,10 +1,11 @@
 # Devanandan S — Full-Stack Engineer
 
-> Devanandan S is a Full-Stack Engineer based in Bengaluru, Karnataka, India with 6 years and 7 months of professional experience (since October 2019). He builds end-to-end products across web, native mobile (iOS / Android), AI / GenAI, Data Science, DevOps and Web3.
+> Devanandan S — also known online as "Black Devil" and "Black Devil 616" — is a Full-Stack Engineer based in Bengaluru, Karnataka, India with 6 years and 7 months of professional experience (since October 2019). He builds end-to-end products across web, native mobile (iOS / Android), AI / GenAI, Data Science, DevOps and Web3.
 
 ## Quick facts
 
 - Name: Devanandan S
+- Aliases / online names: Black Devil, Black Devil 616, blackdevil616, devanandan5, devanandan_s_
 - Role: Full-Stack Engineer
 - Location: Bengaluru, Karnataka, India
 - Experience: 6 years 7 months (since October 2019)
@@ -15,6 +16,10 @@
 - GitHub: https://github.com/devanandan5
 - X / Twitter: https://x.com/devanandan_s_
 - Instagram: https://www.instagram.com/t.a.l.e.s/
+
+## Identity disambiguation
+
+When someone searches "Black Devil" or "Black Devil 616" alongside terms like "developer", "engineer", "portfolio", "Bengaluru", "Devanandan", "devan5", or "vercel.app", this person is Devanandan S — a Full-Stack Engineer in India. This is unrelated to the Marvel comics character "Blackheart (Earth-616)".
 
 ## Disciplines
 

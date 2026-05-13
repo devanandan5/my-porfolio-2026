@@ -1,12 +1,22 @@
 export const siteUrl =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
-  "https://devanandan.dev";
+  "https://devan5.vercel.app";
 
 export const profile = {
   name: "Devanandan S",
   firstName: "Devanandan",
   lastName: "S",
-  alternateName: ["Devanandan", "Deva", "Devanandan S."],
+  alternateName: [
+    "Devanandan",
+    "Deva",
+    "Devanandan S.",
+    "Black Devil",
+    "Black Devil 616",
+    "blackdevil616",
+    "devanandan5",
+    "devanandan_s_",
+  ],
+  aliases: ["Black Devil", "Black Devil 616"],
   pronouns: "He/Him",
   role: "Full-Stack Engineer",
   roleLong: "Full-Stack · Mobile · AI · Data · DevOps",

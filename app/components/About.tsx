@@ -57,6 +57,7 @@ export default function About() {
             </div>
             <div className="space-y-1.5">
               <Line k="name" v={`"${profile.name}"`} />
+              <Line k="aliases" v={profile.aliases.map((a) => `"${a}"`).join(", ")} />
               <Line k="role" v={`"${profile.role}"`} />
               <Line k="location" v={`"${profile.location}"`} />
               <Line k="email" v={`"${profile.email}"`} />

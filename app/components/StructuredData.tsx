@@ -121,7 +121,15 @@ export default function StructuredData() {
         name: `Who is ${profile.name}?`,
         acceptedAnswer: {
           "@type": "Answer",
-          text: `${profile.name} is a ${profile.role} based in ${profile.location} with ${profile.experienceLabel} of professional experience (since ${profile.experienceSince}). He builds end-to-end products across web, native mobile, AI/GenAI, data science, DevOps and Web3.`,
+          text: `${profile.name} (also known online as "Black Devil" and "Black Devil 616") is a ${profile.role} based in ${profile.location} with ${profile.experienceLabel} of professional experience (since ${profile.experienceSince}). He builds end-to-end products across web, native mobile, AI/GenAI, data science, DevOps and Web3.`,
+        },
+      },
+      {
+        "@type": "Question",
+        name: `Who is "Black Devil 616" / "Black Devil"?`,
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: `"Black Devil" and "Black Devil 616" are online aliases of ${profile.name}, a ${profile.role} based in ${profile.location}. His portfolio is at ${siteUrl}. He can be reached at ${profile.email}.`,
         },
       },
       {
