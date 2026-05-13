@@ -1,6 +1,12 @@
+export const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
+  "https://devanandan.dev";
+
 export const profile = {
   name: "Devanandan S",
   firstName: "Devanandan",
+  lastName: "S",
+  alternateName: ["Devanandan", "Deva", "Devanandan S."],
   pronouns: "He/Him",
   role: "Full-Stack Engineer",
   roleLong: "Full-Stack · Mobile · AI · Data · DevOps",

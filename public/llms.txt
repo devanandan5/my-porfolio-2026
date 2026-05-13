@@ -1,0 +1,63 @@
+# Devanandan S — Full-Stack Engineer
+
+> Devanandan S is a Full-Stack Engineer based in Bengaluru, Karnataka, India with 6 years and 7 months of professional experience (since October 2019). He builds end-to-end products across web, native mobile (iOS / Android), AI / GenAI, Data Science, DevOps and Web3.
+
+## Quick facts
+
+- Name: Devanandan S
+- Role: Full-Stack Engineer
+- Location: Bengaluru, Karnataka, India
+- Experience: 6 years 7 months (since October 2019)
+- Open to opportunities: Yes
+- Email: devanandandevaaa1122@gmail.com
+- Phone: +91 95399 06883
+- LinkedIn: https://www.linkedin.com/in/devanandan-s-059239215/
+- GitHub: https://github.com/devanandan5
+- X / Twitter: https://x.com/devanandan_s_
+- Instagram: https://www.instagram.com/t.a.l.e.s/
+
+## Disciplines
+
+- Web Applications (React, Next.js, TypeScript, Node.js)
+- Mobile Development (React Native, iOS, Android)
+- AI / GenAI (LLM apps, RAG pipelines, LangChain, vector databases, embeddings, prompt engineering)
+- Data Science (Python, Pandas, NumPy, ETL pipelines, ML integration)
+- DevOps & Cloud (Docker, AWS, CI/CD, Vercel, Linux)
+- Web3 (smart contracts, wallet integrations, Ethers.js)
+
+## Experience
+
+- MERN Stack Developer at Private Company — Full-time, On-site, Trivandrum, Kerala (May 2024 – Present)
+- Back-end Developer at IVAR Solutions — Freelance, Remote, Kerala (Oct 2020 – Nov 2024)
+- Full-stack Developer at FO Soft Solutions — Full-time, Remote, Bangalore (Feb 2024 – May 2024)
+- Backend & MERN Stack Developer at NEYYAR APP — Full-time, Thiruvananthapuram (Nov 2021 – Mar 2024)
+- Independent Freelance Developer — Remote, India (Oct 2019 – Oct 2020)
+
+## Key projects
+
+- Finco — Personal finance dashboard for budgets and subscriptions.
+- Cura Healthcare — Patient–clinic platform with appointments and records.
+- Eduaccel — Learning acceleration platform with admissions and progress tracking.
+- Briefly — Reader app that summarizes long articles into 60-second briefs using LLMs.
+- Flint File Converter — Privacy-first in-browser file converter (WASM).
+- Unity Social — Mobile-first social media app with feeds and real-time messaging.
+- Statusly — Lightweight status page system with incident timelines.
+
+## Stack
+
+- Frontend: React, Next.js, TypeScript, JavaScript (ES6+), Tailwind CSS, HTML & CSS
+- Backend: Node.js, Express, REST APIs, GraphQL, WebSockets, Authentication
+- Mobile: React Native, Swift / iOS basics, Push Notifications, App / Play Store deploys
+- AI / GenAI: OpenAI / Anthropic APIs, RAG pipelines, LangChain, vector databases, embeddings, prompt engineering
+- Data Science: Python, Pandas / NumPy, ETL pipelines, data visualization, ML model integration
+- DevOps & Cloud: Docker, AWS, CI/CD pipelines, Vercel, Linux / Shell, monitoring
+- Database: MongoDB, PostgreSQL, Mongoose, Redis, SQL
+- Web3: Smart Contracts, Web3 auth, Ethers.js
+- Tooling: Git / GitHub, VS Code, Cursor, Figma, Postman
+
+## Contact
+
+Reach out for full-time roles, freelance contracts, AI/product engineering work, or collaboration:
+- Email: devanandandevaaa1122@gmail.com
+- Phone: +91 95399 06883
+- LinkedIn: https://www.linkedin.com/in/devanandan-s-059239215/
