@@ -69,8 +69,7 @@ export default function Nav() {
               />
             </span>
             <span className="hidden sm:inline text-[color:var(--color-fg)]">
-              {profile.firstName.toLowerCase()}
-              <span className="text-[color:var(--color-muted)]">.dev</span>
+              {profile.name}
             </span>
           </a>
 
