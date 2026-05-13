@@ -13,16 +13,23 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Devanandan S — MERN Stack Developer",
+  title: "Devanandan S — Full-Stack Engineer · Web · Mobile · AI",
   description:
-    "Devanandan S — MERN Stack Developer based in Bengaluru. 5+ years building web and mobile apps with React, Node.js, MongoDB, React Native, Next.js and Web3.",
+    "Devanandan S — Full-Stack Engineer based in Bengaluru. 6+ years shipping web, mobile, AI/GenAI, data and DevOps end-to-end with React, Next.js, Node.js, React Native, Python and the cloud.",
   keywords: [
     "Devanandan S",
-    "MERN Stack Developer",
+    "Full-Stack Engineer",
+    "Full-Stack Developer",
     "React Developer",
+    "Next.js",
     "Node.js",
     "React Native",
-    "Next.js",
+    "iOS Developer",
+    "AI Engineer",
+    "GenAI",
+    "LLM",
+    "Data Science",
+    "DevOps",
     "Web3",
     "Bengaluru",
     "Portfolio",
@@ -30,17 +37,17 @@ export const metadata: Metadata = {
   authors: [{ name: "Devanandan S" }],
   creator: "Devanandan S",
   openGraph: {
-    title: "Devanandan S — MERN Stack Developer",
+    title: "Devanandan S — Full-Stack Engineer · Web · Mobile · AI",
     description:
-      "5+ years building web and mobile experiences with React, Node.js, MongoDB and React Native.",
+      "6+ years shipping web, mobile, AI, data and DevOps end-to-end. Full-stack engineer based in Bengaluru.",
     type: "website",
     locale: "en_IN",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Devanandan S — MERN Stack Developer",
+    title: "Devanandan S — Full-Stack Engineer · Web · Mobile · AI",
     description:
-      "5+ years building web and mobile experiences with React, Node.js, MongoDB and React Native.",
+      "6+ years shipping web, mobile, AI, data and DevOps end-to-end. Full-stack engineer based in Bengaluru.",
   },
 };
 

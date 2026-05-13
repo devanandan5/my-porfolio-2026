@@ -7,7 +7,7 @@ export default function About() {
     <Section
       id="about"
       eyebrow="About"
-      title="Engineer at heart, builder by trade."
+      title="One engineer. Whole stack."
     >
       <div className="grid lg:grid-cols-5 gap-12">
         <div className="lg:col-span-3 space-y-5 text-[color:var(--color-muted)] text-base sm:text-lg leading-relaxed">

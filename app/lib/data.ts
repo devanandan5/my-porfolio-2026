@@ -2,9 +2,18 @@ export const profile = {
   name: "Devanandan S",
   firstName: "Devanandan",
   pronouns: "He/Him",
-  role: "MERN Stack Developer",
+  role: "Full-Stack Engineer",
+  roleLong: "Full-Stack · Mobile · AI · Data · DevOps",
   tagline:
-    "I build robust web and mobile products with React, Node.js, MongoDB and React Native.",
+    "I design and ship end-to-end products — web, native mobile, AI pipelines, data and the infrastructure that runs it.",
+  disciplines: [
+    "Web Apps",
+    "Mobile · iOS / Android",
+    "AI / GenAI",
+    "Data Science",
+    "DevOps",
+    "Web3",
+  ],
   location: "Bengaluru, Karnataka, India",
   status: "Open to opportunities",
   email: "devanandandevaaa1122@gmail.com",
@@ -20,9 +29,9 @@ export const profile = {
   experienceSince: "Oct 2019",
   yearsOfExperience: 6,
   about: [
-    "I'm Devanandan — a full-stack engineer with 6 years and 7 months of hands-on experience (since October 2019) shipping production software across web, mobile and Web3.",
-    "I started out as an independent freelancer building websites and small apps for early clients, then moved into product teams and agencies — working across the MERN stack, React Native and Next.js.",
-    "I care about clean, maintainable code, performant APIs and interfaces that feel obvious to use. Right now I'm exploring the intersection of AI-assisted product workflows and Web3.",
+    "I'm Devanandan — a full-stack engineer with 6 years and 7 months of hands-on experience (since October 2019). I work end-to-end: web apps, native mobile (iOS & Android), AI / GenAI features, data pipelines and the DevOps that ships it all.",
+    "I started out as an independent freelancer building websites and small apps for early clients, then moved into product teams and agencies — picking up React Native, Next.js, AI tooling, data work and cloud infra along the way.",
+    "I care about clean, maintainable code, performant APIs and interfaces that feel obvious to use. Right now I'm focused on AI-native product workflows, LLM apps and the data infrastructure behind them.",
   ],
 } as const;
 
@@ -176,23 +185,78 @@ export const projects: Project[] = [
 export const skillGroups = [
   {
     label: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Tailwind CSS", "HTML & CSS"],
+    items: [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "JavaScript (ES6+)",
+      "Tailwind CSS",
+      "HTML & CSS",
+    ],
   },
   {
     label: "Backend",
-    items: ["Node.js", "Express", "REST APIs", "Authentication", "WebSockets"],
+    items: [
+      "Node.js",
+      "Express",
+      "REST APIs",
+      "GraphQL",
+      "Authentication",
+      "WebSockets",
+    ],
+  },
+  {
+    label: "Mobile · iOS / Android",
+    items: [
+      "React Native",
+      "Swift / iOS basics",
+      "Push Notifications",
+      "App Store / Play Store deploys",
+    ],
+  },
+  {
+    label: "AI / GenAI",
+    items: [
+      "OpenAI / Anthropic APIs",
+      "RAG pipelines",
+      "LangChain",
+      "Vector databases",
+      "Embeddings",
+      "Prompt engineering",
+    ],
+  },
+  {
+    label: "Data Science",
+    items: [
+      "Python",
+      "Pandas / NumPy",
+      "Data visualization",
+      "ETL pipelines",
+      "ML model integration",
+    ],
+  },
+  {
+    label: "DevOps & Cloud",
+    items: [
+      "Docker",
+      "AWS",
+      "CI/CD pipelines",
+      "Vercel",
+      "Linux / Shell",
+      "Monitoring",
+    ],
   },
   {
     label: "Database",
-    items: ["MongoDB", "Mongoose", "SQL", "Redis"],
+    items: ["MongoDB", "PostgreSQL", "Mongoose", "Redis", "SQL"],
   },
   {
-    label: "Mobile",
-    items: ["React Native", "iOS & Android", "Push Notifications"],
+    label: "Web3",
+    items: ["Smart Contracts", "Wallets / Web3 auth", "Ethers.js"],
   },
   {
-    label: "Web3 & Tooling",
-    items: ["Web3", "Smart Contracts", "Git", "CI/CD", "Vercel"],
+    label: "Tooling",
+    items: ["Git / GitHub", "VS Code", "Cursor", "Figma", "Postman"],
   },
 ];
 

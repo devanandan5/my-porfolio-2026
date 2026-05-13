@@ -46,12 +46,23 @@ export default function Hero() {
             </span>
           </h1>
 
+          <ul className="mt-8 flex flex-wrap gap-2">
+            {profile.disciplines.map((d) => (
+              <li
+                key={d}
+                className="rounded-full border border-[color:var(--color-border-strong)] bg-[color:var(--color-surface)]/70 backdrop-blur px-3 py-1 text-xs font-mono text-[color:var(--color-fg)]"
+              >
+                <span className="text-[color:var(--color-accent)]">/</span> {d}
+              </li>
+            ))}
+          </ul>
+
           <p className="mt-8 max-w-2xl text-lg sm:text-xl leading-relaxed text-[color:var(--color-muted)] text-balance">
             {profile.tagline}{" "}
             <span className="text-[color:var(--color-fg)]">
               {profile.experienceLabel}
             </span>{" "}
-            shipping production software across web, mobile and Web3 — since{" "}
+            shipping production software — since{" "}
             <span className="text-[color:var(--color-fg)]">
               {profile.experienceSince}
             </span>
@@ -92,7 +103,7 @@ export default function Hero() {
             {[
               { label: "Experience", value: profile.experienceLabel },
               { label: "Projects", value: "20+" },
-              { label: "Stack", value: "MERN" },
+              { label: "Stack", value: "Full-stack" },
               { label: "Based in", value: "Bengaluru" },
             ].map((stat) => (
               <div
